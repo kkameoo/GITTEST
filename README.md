@@ -14,8 +14,24 @@
     - git config user.email "khdg1202@naver.com"
     # 공용 git 설정 -g
     ex) git config -g user.name 이름
-3) git add . -> staging 등록
+3) git add -> staging 등록
+    ``` bash
+    - git add .
 4) git commit -> 실제 저장소 저장
+    ``` bash
     - git commit -m "이름"
 5) git status (상태 확인)
 6) git log
+
+### Local Git to GitHub
+    - 깃헙에서 저장소 생성
+    - 저장소 주소
+        - https://github.com/kkameoo/GITTEST.git
+
+    - 원격지 등록
+        - git remote add 이름 주소
+        - git remote add origin https://github.com/kkameoo/GITTEST.git
+    
+    - push
+        - git push 원격지 브랜치명
+        - git push -u origin master
