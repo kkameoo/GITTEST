@@ -14,9 +14,8 @@
     - git config user.email "khdg1202@naver.com"
     # 공용 git 설정 -g
     ex) git config -g user.name 이름
-3) git add -> staging 등록
+3) git add . -> staging 등록
 4) git commit -> 실제 저장소 저장
+    - git commit -m "이름"
 5) git status (상태 확인)
-    - staging
-    - git add 
 6) git log
